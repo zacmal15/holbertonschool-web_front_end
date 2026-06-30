@@ -6,15 +6,15 @@
     --color-white: #ffffff;
     --color-light-grey: #f3f3f3;
     --color-dark-grey: #353535;
-    --text-colour: var(--color-black);
+    --text-color: var(--color-black);
 }
 
 body {
-    color: var(--text-colour);
+    color: var(--text-color);
 }
 
 a {
-    color: var(--text-colour);
+    color: var(--text-color);
 }
 
 .visually-hidden {
@@ -22,7 +22,7 @@ a {
 }
 
 .card-category {
-    display: none;
+    color: var(--color-primary)
 }
 
 .section-tagline {
