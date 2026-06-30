@@ -1,3 +1,5 @@
+/* Task: Effortless transitions when scrolling */
+
 html {
     scroll-behaviour: smooth;
 }
