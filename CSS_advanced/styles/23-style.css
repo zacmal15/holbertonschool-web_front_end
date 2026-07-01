@@ -552,14 +552,6 @@ h6 {
     color: var(--text-color);
 }
 
-.social-link {
-    display: block;
-}
-
-.social-link svg {
-    fill: var(--text-color);
-}
-
 .footer-copyright {
     margin: 0;
     font-size: var(--font-size-small);
@@ -568,6 +560,13 @@ h6 {
 
 .footer ul {
     text-align: right;
+}
+.social-link {
+    display: block;
+}
+
+.social-link > svg {
+    fill: var(--text-color);
 }
 
 .footer {
